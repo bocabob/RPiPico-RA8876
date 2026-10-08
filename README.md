@@ -67,7 +67,7 @@ The library drives the SPI port directly, so nothing else should share it.
 
 ## Status
 
-Version 1.0.0 compiles cleanly for the Pico and Pico 2. On the bench (2026-10-08, ER-TFTM101-1, 20 MHz SPI) the HardwareTest sketch passed every read-back check (40 PASS, 0 FAIL), and everything it asks you to look at was as described: colours, pixel streaming, all fonts, ROM fonts, fills, pages and page switching, block copies, scrolling, flicker-free updates, picture-in-picture, sprites, read-back and viewports.
+Version 1.0.0 compiles cleanly for the Pico and Pico 2. On the bench (2026-10-08, Raspberry Pi Pico 2 W, ER-TFTM101-1, 20 MHz SPI) the HardwareTest sketch passed every read-back check (40 PASS, 0 FAIL), and everything it asks you to look at was as described: colours, pixel streaming, all fonts, ROM fonts, fills, pages and page switching, block copies, scrolling, flicker-free updates, picture-in-picture, sprites, read-back and viewports.
 
 Measured there: a 1024 × 540 fill takes 8.6 ms in hardware (516 ms sent as pixels); ROM text about 9 µs a character (font 2 about 137 µs); a page switch 15 ms, timed to the next frame; scrolling a 984 × 468 area by one line 20 ms.
 
