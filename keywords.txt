@@ -1,0 +1,244 @@
+# RPiPico-RA8876
+
+RPiPico_RA8876	KEYWORD1
+
+begin	KEYWORD2
+init	KEYWORD2
+drawPixel	KEYWORD2
+drawChar	KEYWORD2
+drawLine	KEYWORD2
+drawFastVLine	KEYWORD2
+drawFastHLine	KEYWORD2
+fillRect	KEYWORD2
+height	KEYWORD2
+width	KEYWORD2
+readPixel	KEYWORD2
+setWindow	KEYWORD2
+pushColor	KEYWORD2
+
+setRotation	KEYWORD2
+getRotation	KEYWORD2
+setOrigin	KEYWORD2
+getOriginX	KEYWORD2
+getOriginY	KEYWORD2
+invertDisplay	KEYWORD2
+setAddrWindow	KEYWORD2
+
+setViewport	KEYWORD2
+checkViewport	KEYWORD2
+resetViewport	KEYWORD2
+getViewportX	KEYWORD2
+getViewportY	KEYWORD2
+getViewportWidth	KEYWORD2
+getViewportHeight	KEYWORD2
+getViewportDatum	KEYWORD2
+frameViewport	KEYWORD2
+resetViewport	KEYWORD2
+clipAddrWindow	KEYWORD2
+clipWindow	KEYWORD2
+pushColors	KEYWORD2
+pushBlock	KEYWORD2
+pushPixels	KEYWORD2
+
+tft_Read_8	KEYWORD2
+begin_SDA_Read	KEYWORD2
+end_SDA_Read	KEYWORD2
+
+fillScreen	KEYWORD2
+
+drawRect	KEYWORD2
+fillRectHGradient	KEYWORD2
+fillRectVGradient	KEYWORD2
+drawRoundRect	KEYWORD2
+fillRoundRect	KEYWORD2
+
+drawCircle	KEYWORD2
+drawCircleHelper	KEYWORD2
+fillCircle	KEYWORD2
+fillCircleHelper	KEYWORD2
+drawEllipse	KEYWORD2
+fillEllipse	KEYWORD2
+drawTriangle	KEYWORD2
+fillTriangle	KEYWORD2
+
+setSwapBytes	KEYWORD2
+getSwapBytes	KEYWORD2
+
+drawBitmap	KEYWORD2
+drawXBitmap	KEYWORD2
+
+setPivot	KEYWORD2
+getPivotX	KEYWORD2
+getPivotY	KEYWORD2
+
+readRect	KEYWORD2
+pushRect	KEYWORD2
+pushImage	KEYWORD2
+pushMaskedImage	KEYWORD2
+readRectRGB	KEYWORD2
+
+drawNumber	KEYWORD2
+drawFloat	KEYWORD2
+drawString	KEYWORD2
+drawCentreString	KEYWORD2
+drawRightString	KEYWORD2
+
+setCursor	KEYWORD2
+getCursorX	KEYWORD2
+getCursorY	KEYWORD2
+setTextColor	KEYWORD2
+setTextSize	KEYWORD2
+setTextWrap	KEYWORD2
+setTextDatum	KEYWORD2
+getTextDatum	KEYWORD2
+setTextPadding	KEYWORD2
+getTextPadding	KEYWORD2
+setFreeFont	KEYWORD2
+setTextFont	KEYWORD2
+textWidth	KEYWORD2
+fontHeight	KEYWORD2
+decodeUTF8	KEYWORD2
+write	KEYWORD2
+setCallback	KEYWORD2
+fontsLoaded	KEYWORD2
+
+spiwrite	KEYWORD2
+writecommand	KEYWORD2
+writeRegister	KEYWORD2
+writedata	KEYWORD2
+commandList	KEYWORD2
+readcommand8	KEYWORD2
+readcommand16	KEYWORD2
+readcommand32	KEYWORD2
+
+color565	KEYWORD2
+color8to16	KEYWORD2
+color16to8	KEYWORD2
+color16to24	KEYWORD2
+color24to16	KEYWORD2
+alphaBlend	KEYWORD2
+alphaBlend24	KEYWORD2
+
+initDMA	KEYWORD2
+deInitDMA	KEYWORD2
+pushImageDMA	KEYWORD2
+pushPixelsDMA	KEYWORD2
+dmaBusy	KEYWORD2
+dmaWait	KEYWORD2
+
+startWrite	KEYWORD2
+writeColor	KEYWORD2
+endWrite	KEYWORD2
+
+setAttribute	KEYWORD2
+getAttribute	KEYWORD2
+getSetup	KEYWORD2
+getSPIinstance	KEYWORD2
+
+
+# Touch functions
+
+
+# Smooth (anti-aliased) graphics functions
+drawSmoothCircle	KEYWORD2
+fillSmoothCircle	KEYWORD2
+drawSmoothRoundRect	KEYWORD2
+fillSmoothRoundRect	KEYWORD2
+drawSmoothArc	KEYWORD2
+drawArc	KEYWORD2
+drawSpot	KEYWORD2
+drawWideLine	KEYWORD2
+drawWedgeLine	KEYWORD2
+
+# Smooth font functions
+
+loadFont	KEYWORD2
+unloadFont	KEYWORD2
+getUnicodeIndex	KEYWORD2
+showFont	KEYWORD2
+
+
+# Button class
+
+RPiPico_RA8876_Button	KEYWORD1
+
+initButton	KEYWORD2
+initButtonUL	KEYWORD2
+setLabelDatum	KEYWORD2
+drawButton	KEYWORD2
+contains	KEYWORD2
+press	KEYWORD2
+isPressed	KEYWORD2
+justPressed	KEYWORD2
+justReleased	KEYWORD2
+
+
+# Sprite class
+
+RPiPico_RA8876_Sprite	KEYWORD1
+
+createSprite	KEYWORD2
+getPointer	KEYWORD2
+created	KEYWORD2
+deleteSprite	KEYWORD2
+frameBuffer	KEYWORD2
+setColorDepth	KEYWORD2
+getColorDepth	KEYWORD2
+createPalette	KEYWORD2
+setPaletteColor	KEYWORD2
+getPaletteColor	KEYWORD2
+setBitmapColor	KEYWORD2
+fillSprite	KEYWORD2
+setScrollRect	KEYWORD2
+scroll	KEYWORD2
+pushRotated	KEYWORD2
+setPivot	KEYWORD2
+getPivotX	KEYWORD2
+getPivotY	KEYWORD2
+getRotatedBounds	KEYWORD2
+readPixelValue	KEYWORD2
+pushToSprite	KEYWORD2
+drawGlyph	KEYWORD2
+printToSprite	KEYWORD2
+pushSprite	KEYWORD2
+
+# RA8876 hardware
+setSPIFrequency	KEYWORD2
+setSPIMode	KEYWORD2
+panelFound	KEYWORD2
+setHardwareFill	KEYWORD2
+getHardwareFill	KEYWORD2
+hwFillRect	KEYWORD2
+pageAddress	KEYWORD2
+setDrawPage	KEYWORD2
+getDrawPage	KEYWORD2
+showPage	KEYWORD2
+getShowPage	KEYWORD2
+waitForVSync	KEYWORD2
+fillPage	KEYWORD2
+copyPage	KEYWORD2
+copyRect	KEYWORD2
+copyRectTransparent	KEYWORD2
+blendRect	KEYWORD2
+scrollRect	KEYWORD2
+beginComposite	KEYWORD2
+endComposite	KEYWORD2
+inComposite	KEYWORD2
+pipShow	KEYWORD2
+pipMove	KEYWORD2
+pipHide	KEYWORD2
+readStatus	KEYWORD2
+writeRegister	KEYWORD2
+readRegister	KEYWORD2
+engineErrors	KEYWORD2
+setStreamOptimisation	KEYWORD2
+getSPIport	KEYWORD2
+setLogOutput	KEYWORD2
+
+ROM_FONT_16	LITERAL1
+ROM_FONT_24	LITERAL1
+ROM_FONT_32	LITERAL1
+RA8876_PAGES	LITERAL1
+RA8876_USER_PAGES	LITERAL1
+RA8876_WIDTH	LITERAL1
+RA8876_HEIGHT	LITERAL1

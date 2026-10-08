@@ -1,0 +1,19 @@
+{
+  "name": "RPiPico-RA8876",
+  "version": "1.0.0",
+  "keywords": "RA8876, ER-TFTM101-1, display, tft, Pico, Pico 2, RP2040, RP2350, SPI, TFT_eSPI",
+  "description": "Graphics for an RA8876 display on a Raspberry Pi Pico / Pico 2 over SPI: the TFT_eSPI API plus the RA8876's hardware fills, pages, block copies, scrolling, picture-in-picture and ROM fonts",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/bocabob/RPiPico-RA8876"
+  },
+  "authors":
+  [
+    { "name": "Bodmer", "maintainer": false },
+    { "name": "bocabob", "url": "https://github.com/bocabob", "maintainer": true }
+  ],
+  "frameworks": "arduino",
+  "platforms": "raspberrypi",
+  "headers": "RPiPico-RA8876.h"
+}
